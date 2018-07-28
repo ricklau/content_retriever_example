@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.lausy.contentretriever.ContentRetrievalActivity">
+    <item
+        android:id="@+id/action_sort_ascending"
+        android:orderInCategory="100"
+        android:title="@string/action_ascending"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_sort_descending"
+        android:orderInCategory="100"
+        android:title="@string/action_descending"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_load_testdata"
+        android:orderInCategory="100"
+        android:title="@string/action_testdata"
+        app:showAsAction="never"/>
+</menu>
